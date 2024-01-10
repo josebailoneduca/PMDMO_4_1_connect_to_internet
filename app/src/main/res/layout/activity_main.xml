@@ -19,7 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="https://www.iespadrepoveda.com/images/2022-2023-articulos/galeria_imagenes.jpg" />
+        android:hint="Escribe la URL aquí"
+        />
 
     <Button
         android:id="@+id/btnIr"
@@ -38,15 +39,16 @@
             android:editable="false"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine"
+            android:inputType="textMultiLine|textNoSuggestions"
             android:padding="20sp"
-            android:text="s adfasd dasf asdf asd fsdafkj hasldk fhlkasjdh flkjhsdlkfjhasldk alskdfh l las a h dsh alsdkh laskh flkasjh flkasdhf lasdh"
+            android:text=""
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:visibility="gone" />
+            tools:visibility="gone"
+            />
 
         <ImageView
             android:id="@+id/imageView"
